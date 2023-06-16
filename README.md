@@ -194,6 +194,20 @@ img{
   }
 ```
 
+10. input:checked + label:for 自定义表单选项、实现navigation切换效果
+11. 兄弟选择器：~后一个节点可在前一个结点的任意位置的兄弟节点；
+               + 紧邻在前一个结点之后
+12. popup
+    通过a:href定位
+```
+<a href="#popup" class="btn">
+    Book now!
+</a>
+
+<div class="popup" id="popup">
+...
+</div>
+```
 
 
 
