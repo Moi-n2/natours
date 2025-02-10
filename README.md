@@ -24,7 +24,7 @@ practice demo
 ```
 ```
 html{
-  font-size: 62.5%;  //1rem=10px
+  font-size: 62.5%;  //1rem=10px 因为浏览器默认的字体大小是16px，62.5%相当于10px，这样在使用rem单位时，1rem就等于10px
   @include respond(tab-land) {
     font-size: 56.25%;  //1rem=9px
   }
